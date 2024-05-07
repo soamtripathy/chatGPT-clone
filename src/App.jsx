@@ -17,7 +17,7 @@ function App() {
 
   const [messages, setMessages] = useState([
     {
-      text: "Hello, I am Mistral AI. Ask me",
+      text: "Hello, I am ChatGPT. AMA...",
       isBot: true,
     },
   ]);
@@ -71,18 +71,18 @@ function App() {
               <button
                 className="query"
                 onClick={handleQuery}
-                value={"What is Mistral AI?"}
+                value={"What is ChatGPT?"}
               >
                 <img src={msgIcon} alt="Query" className="" />
-                What is Mistral AI?
+                What is ChatGPT?
               </button> 
               <button
                 className="query"
                 onClick={handleQuery}
-                value={"How to use Groq API?"}
+                value={"How to use OpenAI API?"}
               >
                 <img src={msgIcon} alt="Query" className="" />
-                How to use Groq API ?
+                How to use OpenAI API?
               </button>
             </div>
           </div>
